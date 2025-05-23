@@ -17,7 +17,7 @@ Consulta todos los campos de la tabla CITY.
 
 ### 2. Revising the Select Query II
 Consulta el nombre de todas las ciudades de la tabla CITY.
-![Tabla2](imagenes/imagenes/Tabla2.png) 
+![Tabla2](imagenes/Tabla2.png) 
 
 **Solución:**
 ![Consulta2](imagenes/Consulta2.png) 
@@ -26,3 +26,28 @@ Consulta el nombre de todas las ciudades de la tabla CITY.
 * Se selecciona únicamente la columna NAME de la tabla CITY.
 
 ---
+
+### 3. Select All
+Consulta todos los campos de la tabla CITY.
+![Tabla1](imagenes/Tabla1.png) 
+
+**Solución:**
+![Consulta1](imagenes/Consulta1.png) 
+
+**Explicación:**
+* Se utiliza `SELECT *` para obtener todas las columnas.
+
+---
+
+### 4. Select By ID
+![Tabla2](imagenes/Tabla2.png) 
+Consulta todos los campos de la tabla CITY donde el ID sea 1661.
+
+**Solución:**
+![Consulta4](imagenes/Consulta4.png) 
+
+**Explicación:**
+* Se utiliza la cláusula `WHERE` para filtrar por el ID especificado.
+
+---
+
