@@ -73,10 +73,12 @@ Consulta el nombre de todas las ciudades de la tabla CITY donde el COUNTRYCODE s
 **Explicación:**
 * Se selecciona la columna NAME para las ciudades japonesas.
 
+---
+
 
 ### 7. Weather Observation Station 1
 Consulta todos los campos de la tabla STATION.
-![Tabla4](imagenes/Tabla4.png) 
+![Tabla3](imagenes/Tabla3.png) 
 
 **Solución:**
 ![Consulta7](imagenes/Consulta7.png) 
@@ -86,4 +88,38 @@ Consulta todos los campos de la tabla STATION.
 * Se utiliza `SELECT *` para obtener todas las columnas de la tabla STATION.
 
 ---
+
+
+### 8. Weather Observation Station 3
+Consulta la cantidad total de registros en la tabla STATION.
+![Tabla2](imagenes/Tabla2.png) 
+
+**Solución:**
+![Consulta8](imagenes/Consulta8.png) 
+**Explicación:**
+* Se utiliza la función de agregación `COUNT(*)` para contar todos los registros.
+
+---
+
+### 9. Weather Observation Station 4
+Consulta el ID, ciudad, estado y latitud de todas las estaciones.
+![Tabla2](imagenes/Tabla2.png) 
+
+**Solución:**
+![Consulta9](imagenes/Consulta9.png) 
+
+**Explicación:**
+* Se seleccionan columnas específicas de la tabla STATION.
+
+---
+
+### 10. Weather Observation Station 6
+Consulta la ciudad y su longitud para todas las estaciones donde la longitud sea mayor que 38.7780.
+![Tabla2](imagenes/Tabla2.png) 
+
+**Solución:**
+![Consulta10](imagenes/Consulta10.png) 
+
+**Explicación:**
+* Se filtran las estaciones con LONG_W mayor a 38.7780.
 
